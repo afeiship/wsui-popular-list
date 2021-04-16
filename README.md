@@ -15,8 +15,28 @@ npm i @jswork/wsui-popular-list
 ```scss
 // use sass
 @import '~@jswork/wsui-popular-list/dist/index.scss';
-// use css
-@import '~@jswork/wsui-popular-list/dist/style.css';
+
+// use mixin
+.test-wsui-popular-list{
+  @include wsui-popular-list();
+  text-align: center;
+  background: #eee;
+  padding: 10px 0;
+  > .is-item{
+    background: #f60;
+    color: #fff;
+  }
+}
+```
+
+```html
+<div class="tc test-wsui-popular-list">
+  <a class="is-item" href="#">🪐</a>
+  <a class="is-item" href="#">☿</a>
+  <a class="is-item" href="#">♁</a>
+  <a class="is-item" href="#">♃</a>
+  <a class="is-item" href="#">+8</a>
+</div>
 ```
 
 ## preview

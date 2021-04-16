@@ -1,0 +1,71 @@
+/*wsui-popular-list Start*/
+/*wsui-popular-list End*/
+[class*="wsui-popular-list"] {
+  margin-bottom: 20px;
+}
+
+.test-wsui-popular-list {
+  text-align: center;
+  background: #eee;
+  padding: 10px 0;
+}
+
+.test-wsui-popular-list > .is-item {
+  margin: 0 0 0 -15px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 100px;
+  border: 3px solid #fff;
+}
+
+.test-wsui-popular-list > .is-item {
+  background: #f60;
+  color: #fff;
+}
+
+.test-wsui-popular-list2 {
+  text-align: center;
+  background: #eee;
+  padding: 10px 0;
+}
+
+.test-wsui-popular-list2 > .is-item {
+  margin: 0 0 0 -25px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 100px;
+  border: 3px solid #fff;
+}
+
+.test-wsui-popular-list2 > .is-item {
+  background: rebeccapurple;
+  color: #fff;
+}
+
+.test-wsui-popular-list3 {
+  text-align: center;
+  background: #eee;
+  padding: 10px 0;
+}
+
+.test-wsui-popular-list3 > .is-item {
+  margin: 0 0 0 -40px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 100px;
+  border: 10px solid #fff;
+}
+
+.test-wsui-popular-list3 > .is-item {
+  background: green;
+  color: #fff;
+}

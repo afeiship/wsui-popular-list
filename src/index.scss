@@ -1,0 +1,15 @@
+/*wsui-popular-list Start*/
+// https://www.emojiall.com/zh-hans/group-list?page=5
+@mixin wsui-popular-list($in-size: 40px, $in-nagative: -15px, $in-border: 3px solid #fff) {
+  > .is-item {
+    margin: 0 0 0 $in-nagative;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: $in-size;
+    height: $in-size;
+    border-radius: 100px;
+    border: $in-border;
+  }
+}
+/*wsui-popular-list End*/

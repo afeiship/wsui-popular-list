@@ -1,0 +1,40 @@
+@import "../src/index.scss";
+
+[class*="wsui-popular-list"]{
+  margin-bottom: 20px;
+}
+
+.test-wsui-popular-list{
+  @include wsui-popular-list();
+  text-align: center;
+  background: #eee;
+  padding: 10px 0;
+  > .is-item{
+    background: #f60;
+    color: #fff;
+  }
+}
+
+
+.test-wsui-popular-list2{
+  @include wsui-popular-list(32px, -25px);
+  text-align: center;
+  background: #eee;
+  padding: 10px 0;
+  > .is-item{
+    background: rebeccapurple;
+    color: #fff;
+  }
+}
+
+
+.test-wsui-popular-list3{
+  @include wsui-popular-list(50px, -40px, 10px solid #fff);
+  text-align: center;
+  background: #eee;
+  padding: 10px 0;
+  > .is-item{
+    background: green;
+    color: #fff;
+  }
+}
